@@ -1,5 +1,5 @@
 "use client";
-
+//added changes
 import { useEffect } from "react";
 
 import AboutMeComponent from "./about-me/about-me";
