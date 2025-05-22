@@ -15,7 +15,7 @@ function SkillsComponent() {
     { name: "HTML", imageUrl: "/assets/svgs/html5.svg" },
     { name: "CSS", imageUrl: "/assets/svgs/css.svg" },
     { name: "React", imageUrl: "/assets/svgs/react.svg" },
-    { name: "jQuery", imageUrl: "/assets/svgs/jquery.png" },
+    { name: "jQuery", imageUrl: "/assets/svgs/jQuery.svg" },
     { name: "Tableau", imageUrl: "/assets/svgs/tableau.svg" },
     { name: "C", imageUrl: "/assets/images/C.png" },
     {
