@@ -8,7 +8,7 @@ function SkillsComponent() {
   const technicalSkills = [
     // C, JavaScript, Typescript, Python, HTML, CSS, React, React Native, Node.js, Jest, Sequelize, Express
     { name: "C #", imageUrl: "/assets/svgs/csharp.svg" },
-    { name: ".Net core", imageUrl: "/assets/svgs/netcore.svg" },
+    { name: ".Net core", imageUrl: "/assets/svgs/netCore.svg" },
     { name: "Javascript", imageUrl: "/assets/svgs/javascript.svg" },
     { name: "Microsoft SQL", imageUrl: "/assets/images/mssql.svg" },
     { name: "Python", imageUrl: "/assets/svgs/python.svg" },
