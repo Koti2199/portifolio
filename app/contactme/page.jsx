@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from ".contactme";
+import Contact from "./contactme";
 
 export default function Home() {
   return (
