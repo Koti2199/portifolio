@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "./contactme";
-import Achievements from "./achievements";
+
 
 export default function Home() {
   return (
@@ -21,8 +21,6 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Achievements Section */}
-      <Achievements />
 
       {/* Contact Section */}
       <Contact />
