@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "./contactme";
+import Achievements from "./achievements";
 
 export default function Home() {
   return (
