@@ -15,9 +15,8 @@ function SkillsComponent() {
     { name: "HTML", imageUrl: "/assets/svgs/html5.svg" },
     { name: "CSS", imageUrl: "/assets/svgs/css.svg" },
     { name: "React", imageUrl: "/assets/svgs/react.svg" },
-    { name: "React Native", imageUrl: "/assets/svgs/react.svg" },
-    { name: "NextJs", imageUrl: "/assets/images/nextJs1.jpeg" },
-    { name: "Tailwind", imageUrl: "/assets/images/tailwind.webp" },
+    { name: "jQuery", imageUrl: "/assets/svgs/jquery.png" },
+    { name: "Tableau", imageUrl: "/assets/svgs/tableau.svg" },
     { name: "C", imageUrl: "/assets/images/C.png" },
     {
       name: "Node.js",
@@ -26,14 +25,6 @@ function SkillsComponent() {
           ? "/assets/svgs/node-js.svg"
           : "/assets/svgs/nodejs.svg",
     },
-    {
-      name: "Express",
-      imageUrl:
-        resolvedTheme === "dark"
-          ? "/assets/images/express.png"
-          : "/assets/svgs/express.svg",
-    },
-    { name: "Postgres", imageUrl: "/assets/svgs/postgresql.svg" },
     { name: "MySql", imageUrl: "/assets/svgs/mysql.svg" },
     { name: "MongoDb", imageUrl: "/assets/svgs/mongodb.svg" },
     {
@@ -43,10 +34,8 @@ function SkillsComponent() {
           ? "/assets/svgs/aws-dark.svg"
           : "/assets/svgs/aws.svg",
     },
-    { name: "Jenkins", imageUrl: "/assets/svgs/jenkins.svg" },
     { name: "Git", imageUrl: "/assets/svgs/git.svg" },
     { name: "Postman", imageUrl: "/assets/svgs/postman.svg" },
-    { name: "npm", imageUrl: "/assets/svgs/npm.svg" },
   ];
 
   const softSkills = [
