@@ -26,9 +26,10 @@ const experience = [
 function ExperienceComponent() {
   return (
     <>
-      <h2 className="text-3xl mx-auto max-w-6xl font-bold mt-4 py-2 sm:text-2xl">
+      <h2 className="text-3xl font-bold mt-4 py-2 sm:text-2xl text-left px-4 lg:px-0">
         Experience
       </h2>
+
       <div className="mx-auto max-w-6xl lg:max-w-6xl">
         {experience.map((experience, index) => {
           return (
