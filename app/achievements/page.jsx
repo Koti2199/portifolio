@@ -1,4 +1,4 @@
-import Achievements from ".achievements";
+import Achievements from "./achievements";
 
 export default function Home() {
   return (
