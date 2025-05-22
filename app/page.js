@@ -7,7 +7,9 @@ import IntroSection from "./components/introSection";
 import EducationComponent from "./education/education";
 import SkillsComponent from "./skills/skills";
 import ExperienceComponent from "./experience/experience";
+import AchievementsComponent from  "./achievements/achievements";
 import ProjectsComponent from "./projects/projects";
+import ContactMeComponent from "./contactme/contactme";
 
 export default function Home() {
   useEffect(() => {
@@ -82,6 +84,12 @@ export default function Home() {
         >
           <ExperienceComponent />
         </section>
+        <section
+          id="achievements"
+          className="d-block px-2 py-8 w-9/12 sm:w-full sm:py-8 lg:px-4"
+        >
+          <AchievementsComponent />
+        </section>
 
         <section
           id="skills"
@@ -95,6 +103,12 @@ export default function Home() {
           className="d-block px-2 py-8 w-9/12 sm:w-full sm:py-8 lg:px-4"
         >
           <ProjectsComponent />
+          <section
+          id="contactme"
+          className="d-block px-2 py-8 w-9/12 sm:w-full sm:py-8 lg:px-4"
+        >
+          <ContactMeComponent />
+        </section>
         </section>
       </div>
     </div>
