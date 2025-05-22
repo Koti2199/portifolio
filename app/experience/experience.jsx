@@ -21,18 +21,6 @@ const experience = [
     ],
     logo: "/assets/images/infy.jpg",
   },
-  {
-    companyName: "Engineer’s Hub, Mivo Solutions",
-    title: "Application Development Intern",
-    duration: "Jun 2021 – Oct 2021np",
-    location: "Hyderabad, Telangana",
-    description: [
-      "Developed responsive UI for customer facing web and mobile applications using React and React Native with smooth flow.",
-      "Utilized advanced JavaScript (ES5/ES6) concepts including closures, hoisting, block scoping, prototypes, object-oriented programming principles, promises, and rest/spread operators to enhance application functionality and performance.",
-      "Leveraged Android Studio and Xcode development environments for cross-platform application visualization and testing, ensuring compatibility and optimized performance across both Android and iOS platforms.",
-    ],
-    logo: "/assets/images/engineershubLogo.jpeg",
-  },
 ];
 
 function ExperienceComponent() {
