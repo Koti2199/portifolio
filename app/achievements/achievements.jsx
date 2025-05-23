@@ -1,68 +1,67 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import React from "react";
-import Image from "next/image";
 
 const achievements = [
   {
-    title: "UNT Engineering Graduation Spotlight",
+    title: "UNT Engineering Recognition for Academic Excellence",
     description:
       "Featured by UNT College of Engineering for academic excellence and graduation milestone.",
-    year: "2025",
+    year: " 2025",
     image: "/assets/images/ach_post.png",
     link: "https://www.linkedin.com/posts/untengineering_untengineering-untgrad-meangreen-activity-7326599335209553921-HdTe",
   },
 ];
 
-const Achievements = () => {
+function AchievementsComponent() {
   return (
-    <section id="achievements" className="py-16 px-4 sm:px-6">
-      <div className="mx-auto max-w-4xl">
-        {/* Section Heading - left aligned */}
-        <h2 className="text-3xl font-bold mb-6 text-left">Achievements</h2>
+    <>
+      <h2 className="text-3xl font-bold mt-4 py-2 sm:text-2xl text-left px-4 lg:px-0">
+        Achievements
+      </h2>
 
-        {achievements.map((item, index) => (
+      <div className="mx-auto max-w-6xl lg:max-w-6xl">
+        {achievements.map((achievement, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center justify-between gap-8 bg-white dark:bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 p-8"
+            className="mt-8 shadow-lg rounded-xl p-8 bg-white dark:bg-gray-800 dark:shadow-white"
           >
-            {/* Left - Text Content */}
-            <div className="w-full md:w-1/2 text-left">
-              <h3 className="text-2xl font-semibold text-blue-600 dark:text-sky-300 mb-3">
-                {item.title}
+            {/* Text Content - Top */}
+            <div className="text-left mb-6">
+              <h3 className="text-2xl font-bold text-blue-600 dark:text-sky-300 mb-2">
+                {achievement.title}
               </h3>
-              <p className="text-gray-700 dark:text-gray-300 mb-2">
-                {item.description}
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-2 leading-relaxed">
+                {achievement.description}
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">
-                📅 {item.year}
+              <p className="text-md text-gray-500 dark:text-gray-400 mb-3">
+                Awarded year {achievement.year}
               </p>
-              {item.link && (
+              {achievement.link && (
                 <a
-                  href={item.link}
+                  href={achievement.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block text-sm text-sky-600 hover:underline font-medium"
+                  className="text-md text-sky-600 hover:underline font-semibold"
                 >
-                  View Certificate 🔗
+                  View 🔗
                 </a>
               )}
             </div>
 
-            {/* Right - Image */}
-            <div className="w-full md:w-1/2 flex justify-center">
-              <Image
-                src={item.image}
-                alt={item.title}
-                width={400}
-                height={300}
-                className="rounded-xl object-contain"
+            {/* Image Content - Bottom */}
+            <div className="flex justify-center">
+              <img
+                src={achievement.image}
+                alt={achievement.title}
+                className="rounded-xl object-contain max-h-80 w-auto shadow-md"
               />
             </div>
           </div>
         ))}
       </div>
-    </section>
+    </>
   );
-};
+}
 
-export default Achievements;
+export default AchievementsComponent;
