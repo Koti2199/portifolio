@@ -22,15 +22,6 @@ const educationDetails = [
     concentration: "Concentration in General Data Engineering",
     logo: "/assets/images/untNoBg.png",
   },
-  {
-    universityName: "Velagapudi RamaKrishna Siddhartha Engineering College",
-    address: "Vijayawada, Andhra Pradesh, India",
-    major: "Bachelors of Technology in Mechanical Engineering",
-    duration: "Aug 2018 - May 2021",
-    gpa: "3.77",
-    // Removed coursework for Velagapudi RamaKrishna Siddhartha Engineering College
-    logo: "/assets/images/vr.jpeg",
-  },
 ];
 
 export default function EducationComponent() {
