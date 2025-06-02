@@ -19,7 +19,7 @@ function ProjectCard(props) {
         target="_blank"
         className="text-black text-[16px] underline font-bold dark:text-white"
       >
-        Link
+        View
       </a>
     </div>
   );
